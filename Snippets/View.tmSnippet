@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var ${1:${2:Item}View} = Backbone.View.extend({
+  // attaches `this.el` to an existing element.
+  el: $(${5:'${6:body}'}),
+  
+  initialize: function(){
+    _.bindAll(this, 'render');
+     this.render(); // not all views are self-rendering. This one is.
+  },
+  
+  render: function(){
+    $(this.el).append(${10:"${11:&lt;ul&gt; &lt;li&gt;hello world&lt;/li&gt; &lt;/ul&gt;}"});
+  }
+});
+
+</string>
+	<key>name</key>
+	<string>View</string>
+	<key>scope</key>
+	<string>source.js.backbone</string>
+	<key>tabTrigger</key>
+	<string>view</string>
+	<key>uuid</key>
+	<string>EC3DD3F4-7588-483F-84C0-660E044946DD</string>
+</dict>
+</plist>

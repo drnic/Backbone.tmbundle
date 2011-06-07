@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>foldingStartMarker</key>
+	<string>(^.*\{[^}]*$|^.*\([^\)]*$|^.*/\*(?!.*\*/).*$)</string>
+	<key>foldingStopMarker</key>
+	<string>(^\s*\}|^\s*\)|^(?!.*/\*).*\*/)</string>
+	<key>keyEquivalent</key>
+	<string>^~J</string>
+	<key>name</key>
+	<string>JavaScript (Backbone)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\bBackbone\.(?:View)\b</string>
+			<key>name</key>
+			<string>support.class.backbone</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(?:extend)\b</string>
+			<key>name</key>
+			<string>support.function.backbone</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.js.jquery</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.js</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#leading-space</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.js.backbone</string>
+	<key>uuid</key>
+	<string>4514D797-AC75-4515-A9D6-EECCEB0E3278</string>
+</dict>
+</plist>
