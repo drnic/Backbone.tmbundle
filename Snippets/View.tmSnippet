@@ -20,7 +20,6 @@
     $(this.el).append(${10:"${11:&lt;ul&gt; &lt;li&gt;hello world&lt;/li&gt; &lt;/ul&gt;}"});
   }
 });
-
 </string>
 	<key>name</key>
 	<string>View</string>

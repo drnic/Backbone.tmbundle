@@ -14,7 +14,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\bBackbone\.(?:View)\b</string>
+			<string>\bBackbone\.(?:Model|View)\b</string>
 			<key>name</key>
 			<string>support.class.backbone</string>
 		</dict>
