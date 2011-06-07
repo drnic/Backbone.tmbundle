@@ -7,6 +7,10 @@
   // attaches `this.el` to an existing element.
   el: $(${5:'${6:body}'}),
   
+  events: {
+    // 'cssPath': 'callback'
+  },
+  
   initialize: function(){
     _.bindAll(this, 'render');
      this.render(); // not all views are self-rendering. This one is.
