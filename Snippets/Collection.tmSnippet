@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var ${1:List} = Backbone.Collection.extend({
+  model: ${2:Item}
+});
+</string>
+	<key>name</key>
+	<string>Collection</string>
+	<key>scope</key>
+	<string>source.js.backbone</string>
+	<key>tabTrigger</key>
+	<string>coll</string>
+	<key>uuid</key>
+	<string>F450B649-1EAD-460D-95EA-2CCA4EBD911B</string>
+</dict>
+</plist>
