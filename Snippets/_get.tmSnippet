@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.get(${1:'${2:property}'})</string>
+	<key>name</key>
+	<string>.get</string>
+	<key>scope</key>
+	<string>source.js.backbone</string>
+	<key>tabTrigger</key>
+	<string>.get</string>
+	<key>uuid</key>
+	<string>8D20801A-DCF4-4C78-9F81-CEA4D1ECE1A0</string>
+</dict>
+</plist>
