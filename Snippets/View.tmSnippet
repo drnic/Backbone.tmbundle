@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>var ${1:${2:Item}View} = Backbone.View.extend({
   // attaches `this.el` to an existing element.
-  el: $(${5:'${6:body}'}),
+  el: \$(${5:'${6:body}'}),
   
   events: {
     // 'click button#add': 'callback'
