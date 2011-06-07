@@ -14,7 +14,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\bBackbone\.(?:Model|View)\b</string>
+			<string>\bBackbone\.(?:Collection|Model|View)\b</string>
 			<key>name</key>
 			<string>support.class.backbone</string>
 		</dict>
@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>source.js.jquery</string>
+			<string>source.js</string>
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>source.js</string>
+			<string>source.js.jquery</string>
 		</dict>
 		<dict>
 			<key>include</key>

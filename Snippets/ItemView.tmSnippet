@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var ${1:${2:Item}View} = Backbone.View.extend({
+  tagName: ${5:'${6:li}'}, 
+  
+  events: {
+    // 'click button#add': 'callback'
+  },
+  
+  initialize: function(){
+    _.bindAll(this, 'render');
+  },
+  
+  render: function(){
+    \$(this.el);
+    return this;
+  }
+});
+</string>
+	<key>name</key>
+	<string>ItemView</string>
+	<key>scope</key>
+	<string>source.js.backbone</string>
+	<key>tabTrigger</key>
+	<string>viewi</string>
+	<key>uuid</key>
+	<string>18B5F867-B3C8-41C2-B190-E9501B4578BE</string>
+</dict>
+</plist>
